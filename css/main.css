@@ -1,0 +1,56 @@
+body {
+  box-sizing: border-box;
+  min-height: 100%; /*este comentario es para optimizar el degradado en el fondo del sitio*/
+  font-size: 62.5%; /*truco para convertir un rem en 10px*/
+  /*font-family: 'Sen', sans-serif;*/
+  font-family: 'Oxanium', cursive!important;
+
+  /*background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);*/
+  /*background-image: linear-gradient(to top, #09203f 0%, #537895 100%);*/
+}
+
+/* ==========================================================================
+   COLORES
+   ========================================================================== */
+   :root {
+
+     --fondoPROSA: rgba(23,42,48,0.95);
+     --azulProsa: #0a1739;
+     --azulProsaD: rgba(10,23,57,0.8);
+     --rojoPROSA: #e5322d;
+     --midnightBlue: #04171d;
+     --midnightBlue1: #1E1F26;
+     --indigoInk: #283655;
+     --indigoClaro: #2f4169;
+     --blueberry: #4D658D;
+     --perlwinkle: #D0E1F9;
+     --navy: #00293C;
+     --peacockBlue: #1E656D;
+     --ivory: #F1F3CE;
+     --candyApple: #F62A00;
+
+     --azulWV: #141f5d;
+     --rojoPROSAC: #fe615d;
+     --azulO: #1d2c4f;
+     --azulOD: rgba(29, 44, 79, 0.8);
+     --azulC: #5d688d;
+     --amarillo: #cc9933;
+     /*
+     --sysGreen: #42b3c5;
+     --sysYellow: #ffcd37;
+     */
+     --sysGreen: #00a65a;
+     --sysYellow: #ff851b;
+     --sysRed: #dc3545;
+   }
+
+/*****************BARRA NAVEGACIÓN HORIZONTAL*******************************/
+a.nav-link:hover {
+    color: var(--amarillo)!important;
+}
+a.dropdown-item {
+    color: #fff!important;
+}
+a:hover {
+    color: var(--amarillo)!important;
+}
